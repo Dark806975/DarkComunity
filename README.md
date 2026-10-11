@@ -24,3 +24,22 @@ The homepage is `index.html`. It is a responsive, single-page site written in HT
 - Add DeadCreep server address and status when ready to share.
 - Add the official Discord invite after the community server is created.
 - Add music releases, videos, and project updates.
+
+
+## Activar los reproductores de música
+
+Los controles de audio ya están en la página, pero **no reproducirán nada hasta que subas los archivos de audio reales** al repositorio. Los reproductores esperan estos archivos MP3:
+
+- `audio/frozen-heart.mp3`
+- `audio/spark-in-my-dark-room.mp3`
+- `audio/let-me-breathe.mp3`
+
+### Cómo subirlos desde GitHub
+
+1. Abre el repositorio y pulsa **Add file → Create new file**.
+2. En el nombre del archivo escribe, por ejemplo, `audio/frozen-heart.mp3` no es posible cargar un MP3 desde el editor de texto. En su lugar, pulsa **Add file → Upload files**.
+3. Crea la carpeta `audio` en tu computador, mete dentro tus MP3 y arrástralos a la pantalla **Upload files** de GitHub. Si no puedes crear una carpeta vacía en GitHub, la carpeta aparecerá al subir el primer archivo con su ruta.
+4. Usa exactamente los nombres indicados arriba, respetando guiones y minúsculas.
+5. Pulsa **Commit changes** y espera a que GitHub Pages actualice la página.
+
+**Importante:** no basta con que la música esté en tu perfil de BandLab o que aparezca nombrada en la web. Para que el reproductor integrado funcione, necesita el archivo MP3 dentro del repositorio o una URL directa de audio pública. Si las canciones son muy pesadas, es mejor usar un servicio de audio con reproductor incrustable o enlazar cada publicación pública de BandLab.
